@@ -1,0 +1,273 @@
+{
+  "hero": [
+    {
+      "id": "h1",
+      "title": "Live Cricket, Zero Delay",
+      "desc": "Watch marquee IPL matches, highlights aur expert analysis — sab ek jagah pe. Real-time scores, multi-cam views, aur HD streaming.",
+      "badge": "#1 Cricket Destination",
+      "year": "2026",
+      "rating": "9.2",
+      "lang": "Hindi",
+      "bg": "https://picsum.photos/seed/ipl-stadium/1920/1080"
+    },
+    {
+      "id": "h2",
+      "title": "Pushpa 3: The Rule Begins",
+      "desc": "Allu Arjun ki dhamakedar wapsi. Jungles, power, aur ek aisa rule jo todega sabkuch. Jan 2026 mein sirf JioHotstar pe.",
+      "badge": "Exclusive Premiere",
+      "year": "2026",
+      "rating": "8.7",
+      "lang": "Telugu",
+      "bg": "https://picsum.photos/seed/pushpa-fire/1920/1080"
+    },
+    {
+      "id": "h3",
+      "title": "Stree 3: Ab Woh Aayegi",
+      "desc": "Chanderi mein phir machai khalbali. Shraddha Kapoor, Rajkummar Rao aur ek naya darr. Exclusive streaming October 2026.",
+      "badge": "Most Awaited",
+      "year": "2026",
+      "rating": "8.9",
+      "lang": "Hindi",
+      "bg": "https://picsum.photos/seed/stree-dark/1920/1080"
+    }
+  ],
+
+  "topShowcase": {
+    "tag": "🔥 Featured",
+    "title": "Match Companion",
+    "desc": "Live scores, fastest ball-by-ball updates, aur top plays — sab ek jagah. IPL 2026 ke har match ke liye ready raho.",
+    "img": "/upper top.jpg",
+    "cta": "Try Now",
+    "ctaHref": "https://chatgpt.com"
+  },
+
+  "rows": [
+    {
+      "id": "new-on",
+      "title": "🎬 New on JioHotstar",
+      "aspect": "landscape",
+      "items": [
+        {
+          "title": "The Last Match",
+          "sub": "2026 · Drama",
+          "badge": "NEW",
+          "img": "https://picsum.photos/seed/last-match/472/268"
+        },
+        {
+          "title": "Run Machine",
+          "sub": "2025 · Sports",
+          "badge": "HD",
+          "img": "https://picsum.photos/seed/run-machine/472/268"
+        },
+        {
+          "title": "Midnight Story",
+          "sub": "2026 · Thriller",
+          "badge": null,
+          "img": "https://picsum.photos/seed/midnight-thriller/472/268"
+        },
+        {
+          "title": "Prime Time",
+          "sub": "2025 · Drama",
+          "badge": "LIVE",
+          "img": "https://picsum.photos/seed/prime-drama/472/268"
+        },
+        {
+          "title": "Inside Edge S4",
+          "sub": "2025 · Crime",
+          "badge": "HD",
+          "img": "https://picsum.photos/seed/inside-edge/472/268"
+        },
+        {
+          "title": "Victory Lap",
+          "sub": "2026 · Cricket",
+          "badge": "NEW",
+          "img": "https://picsum.photos/seed/victory-cricket/472/268"
+        },
+        {
+          "title": "Dark Horizon",
+          "sub": "2026 · Sci-Fi",
+          "badge": "NEW",
+          "img": "https://picsum.photos/seed/dark-horizon/472/268"
+        }
+      ]
+    },
+    {
+      "id": "sports-section",
+      "title": "⚽ Sports",
+      "aspect": "sports",
+      "items": [
+        {
+          "title": "IPL 2026",
+          "sub": "Cricket · Live",
+          "badge": "LIVE",
+          "img": "https://picsum.photos/seed/ipl2026/396/224"
+        },
+        {
+          "title": "La Liga",
+          "sub": "Football · HD",
+          "badge": "HD",
+          "img": "https://picsum.photos/seed/laliga/396/224"
+        },
+        {
+          "title": "Pro Kabaddi S11",
+          "sub": "Kabaddi",
+          "badge": null,
+          "img": "https://picsum.photos/seed/kabaddi/396/224"
+        },
+        {
+          "title": "NBA Finals 2026",
+          "sub": "Basketball",
+          "badge": "HD",
+          "img": "https://picsum.photos/seed/nba2026/396/224"
+        },
+        {
+          "title": "Badminton World Open",
+          "sub": "Badminton",
+          "badge": "NEW",
+          "img": "https://picsum.photos/seed/badminton/396/224"
+        },
+        {
+          "title": "Formula 1 GP",
+          "sub": "Racing · Live",
+          "badge": "LIVE",
+          "img": "https://picsum.photos/seed/formula1/396/224"
+        }
+      ]
+    },
+    {
+      "id": "movies-section",
+      "title": "🎥 Movies",
+      "aspect": "portrait",
+      "items": [
+        {
+          "title": "Pushpa 3",
+          "sub": "2026 · Action",
+          "badge": "NEW",
+          "img": "https://picsum.photos/seed/pushpa3/296/440"
+        },
+        {
+          "title": "Fighter 2",
+          "sub": "2025 · Action",
+          "badge": "HD",
+          "img": "https://picsum.photos/seed/fighter2/296/440"
+        },
+        {
+          "title": "Stree 3",
+          "sub": "2026 · Horror",
+          "badge": "NEW",
+          "img": "https://picsum.photos/seed/stree3/296/440"
+        },
+        {
+          "title": "Animal 2",
+          "sub": "2025 · Drama",
+          "badge": "NEW",
+          "img": "https://picsum.photos/seed/animal2/296/440"
+        },
+        {
+          "title": "Jawan 2",
+          "sub": "2026 · Thriller",
+          "badge": "HD",
+          "img": "https://picsum.photos/seed/jawan2/296/440"
+        },
+        {
+          "title": "War 2",
+          "sub": "2026 · Action",
+          "badge": "NEW",
+          "img": "https://picsum.photos/seed/war2action/296/440"
+        },
+        {
+          "title": "Kalki 2",
+          "sub": "2026 · Sci-Fi",
+          "badge": "HD",
+          "img": "https://picsum.photos/seed/kalki2/296/440"
+        }
+      ]
+    },
+    {
+      "id": "tv-section",
+      "title": "📺 TV Shows",
+      "aspect": "landscape",
+      "items": [
+        {
+          "title": "Panchayat S4",
+          "sub": "2026 · Comedy",
+          "badge": "NEW",
+          "img": "https://picsum.photos/seed/panchayat4/472/268"
+        },
+        {
+          "title": "Mirzapur S4",
+          "sub": "2025 · Crime",
+          "badge": "HD",
+          "img": "https://picsum.photos/seed/mirzapur4/472/268"
+        },
+        {
+          "title": "Scam 2026",
+          "sub": "2026 · Drama",
+          "badge": "NEW",
+          "img": "https://picsum.photos/seed/scam2026/472/268"
+        },
+        {
+          "title": "TVF Aspirants 2",
+          "sub": "2025 · Drama",
+          "badge": "NEW",
+          "img": "https://picsum.photos/seed/aspirants2/472/268"
+        },
+        {
+          "title": "Kota Factory S4",
+          "sub": "2026 · Drama",
+          "badge": "HD",
+          "img": "https://picsum.photos/seed/kotafactory4/472/268"
+        },
+        {
+          "title": "Raktanchal S3",
+          "sub": "2025 · Crime",
+          "badge": null,
+          "img": "https://picsum.photos/seed/raktanchal3/472/268"
+        }
+      ]
+    },
+    {
+      "id": "trending",
+      "title": "🔥 Trending Now",
+      "aspect": "landscape",
+      "items": [
+        {
+          "title": "Dunki Returns",
+          "sub": "2026 · Comedy",
+          "badge": "NEW",
+          "img": "https://picsum.photos/seed/dunki/472/268"
+        },
+        {
+          "title": "RRR Chapter 2",
+          "sub": "2026 · Action",
+          "badge": "HD",
+          "img": "https://picsum.photos/seed/rrr2/472/268"
+        },
+        {
+          "title": "Pataal Lok S3",
+          "sub": "2025 · Thriller",
+          "badge": "HD",
+          "img": "https://picsum.photos/seed/pataallok/472/268"
+        },
+        {
+          "title": "Sacred Games S3",
+          "sub": "2026 · Crime",
+          "badge": "NEW",
+          "img": "https://picsum.photos/seed/sacredgames/472/268"
+        },
+        {
+          "title": "The Family Man S4",
+          "sub": "2026 · Thriller",
+          "badge": "NEW",
+          "img": "https://picsum.photos/seed/familyman4/472/268"
+        },
+        {
+          "title": "Delhi Crime S4",
+          "sub": "2026 · Crime",
+          "badge": "HD",
+          "img": "https://picsum.photos/seed/delhicrime4/472/268"
+        }
+      ]
+    }
+  ]
+}
