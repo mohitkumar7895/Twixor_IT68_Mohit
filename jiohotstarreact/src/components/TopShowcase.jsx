@@ -5,9 +5,9 @@ const ts = data.topShowcase
 function TopShowcase() {
   return (
     <section id="home-section" className="px-4 md:px-8 pt-4 md:pt-8 pb-2">
-      <div className="grid grid-cols-1 md:grid-cols-[1.15fr_1fr] min-h-[400px] md:min-h-60 overflow-hidden rounded-[18px] md:rounded-[22px] border border-white/5 bg-[radial-gradient(circle_at_top_left,rgba(245,162,72,0.18),transparent_34%),linear-gradient(135deg,#141823_0%,#10131c_46%,#171d2a_100%)] shadow-[0_20px_50px_rgba(0,0,0,0.28)]">
+      <div className="grid grid-cols-1 md:grid-cols-[1.15fr_1fr] min-h-100 md:min-h-60 overflow-hidden rounded-[18px] md:rounded-[22px] border border-white/5 bg-[radial-gradient(circle_at_top_left,rgba(245,162,72,0.18),transparent_34%),linear-gradient(135deg,#141823_0%,#10131c_46%,#171d2a_100%)] shadow-[0_20px_50px_rgba(0,0,0,0.28)]">
         {/* Media side */}
-        <div className="relative min-h-[240px] md:min-h-60 overflow-hidden after:content-[''] after:absolute after:inset-0 after:bg-[linear-gradient(90deg,rgba(16,19,28,0.06)_0%,rgba(16,19,28,0.2)_55%,rgba(16,19,28,1)_100%)] md:after:bg-[linear-gradient(90deg,rgba(16,19,28,0.06)_0%,rgba(16,19,28,0.2)_55%,rgba(16,19,28,0.95)_100%)]">
+        <div className="relative min-h-60 md:min-h-60 overflow-hidden after:content-[''] after:absolute after:inset-0 after:bg-[linear-gradient(90deg,rgba(16,19,28,0.06)_0%,rgba(16,19,28,0.2)_55%,rgba(16,19,28,1)_100%)] md:after:bg-[linear-gradient(90deg,rgba(16,19,28,0.06)_0%,rgba(16,19,28,0.2)_55%,rgba(16,19,28,0.95)_100%)]">
           <img
             src={ts.img}
             alt={ts.title}

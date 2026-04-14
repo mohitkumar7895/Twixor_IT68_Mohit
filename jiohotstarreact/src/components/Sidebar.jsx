@@ -13,7 +13,7 @@ function Sidebar({ onSearchToggle, activeSearch }) {
   return (
     <aside
       aria-label="Primary navigation"
-      className="group fixed bottom-0 left-0 right-0 md:top-0 md:bottom-0 md:w-18 md:hover:w-60 z-[100] flex flex-row md:flex-col items-center justify-around md:justify-start py-2 md:py-5 md:pb-6 overflow-hidden border-t md:border-t-0 md:border-r border-white/6 bg-bg-sidebar/95 md:bg-bg-sidebar backdrop-blur-md md:backdrop-blur-none transition-[width] duration-300 ease-in-out"
+      className="group fixed bottom-0 left-0 right-0 md:top-0 md:bottom-0 md:w-18 md:hover:w-60 z-100 flex flex-row md:flex-col items-center justify-around md:justify-start py-2 md:py-5 md:pb-6 overflow-hidden border-t md:border-t-0 md:border-r border-white/6 bg-bg-sidebar/95 md:bg-bg-sidebar backdrop-blur-md md:backdrop-blur-none transition-[width] duration-300 ease-in-out"
     >
       <a
         href="#home-section"

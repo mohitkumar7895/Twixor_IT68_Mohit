@@ -18,7 +18,7 @@ function Hero() {
   return (
     <section
       aria-label="Featured hero banner"
-      className="relative flex items-end h-[60vh] md:h-[90vh] min-h-[400px] md:min-h-135 pb-10 md:pb-17.5 overflow-hidden"
+      className="relative flex items-end h-[60vh] md:h-[90vh] min-h-100 md:min-h-135 pb-10 md:pb-17.5 overflow-hidden"
     >
       {/* Background */}
       <div
@@ -48,7 +48,7 @@ function Hero() {
           </span>
         </div>
 
-        <p className="mb-6 text-text-secondary text-[13px] md:text-sm leading-[1.65] line-clamp-2 md:line-clamp-3 md:max-w-[480px]">
+        <p className="mb-6 text-text-secondary text-[13px] md:text-sm leading-[1.65] line-clamp-2 md:line-clamp-3 md:max-w-120">
           {slide.desc}
         </p>
 

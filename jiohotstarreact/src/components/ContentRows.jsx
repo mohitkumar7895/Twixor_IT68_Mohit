@@ -14,7 +14,7 @@ const BADGE_STYLES = {
 }
 
 function GridCard({ item, aspect }) {
-  const baseSize = aspect === 'portrait' ? 'aspect-[2/3]' : 'aspect-[16/9]'
+  const baseSize = aspect === 'portrait' ? 'aspect-2/3' : 'aspect-video'
   return (
     <article className={`group relative overflow-hidden rounded-lg bg-bg-card cursor-pointer transition-all duration-300 hover:scale-[1.04] hover:z-10 hover:shadow-2xl ${baseSize}`}>
       <img src={item.img} alt={item.title} className="block w-full h-full object-cover" />
@@ -25,7 +25,7 @@ function GridCard({ item, aspect }) {
       )}
       <div className="absolute right-0 bottom-0 left-0 px-2.5 pb-2.5 pt-7 bg-[linear-gradient(0deg,rgba(10,12,20,0.95)_0%,transparent_100%)] md:opacity-0 group-hover:opacity-100 transition-opacity">
         <p className="text-[12px] font-bold text-white line-clamp-1">{item.title}</p>
-        <p className="mt-0.5 text-[11px] text-[#8a9bb5] line-clamp-1">{item.sub}</p>
+        <p className="mt-0.5 text-[11px] text-text-secondary line-clamp-1">{item.sub}</p>
       </div>
     </article>
   )
@@ -84,7 +84,7 @@ function Row({ row, searchFilter, onViewAll, isExpanded }) {
           {items.map((item) => (
             <article
               key={item.title}
-              className={`group relative flex-none overflow-hidden rounded-md md:rounded-lg bg-bg-card cursor-pointer transition-[transform,box-shadow] duration-280 ease-in-out md:hover:scale-[1.07] hover:z-5 hover:shadow-[0_10px_36px_rgba(0,0,0,0.8)] ${baseSize} max-md:w-[150px] max-md:h-auto max-md:aspect-[16/9] ${row.aspect === 'portrait' ? 'max-md:aspect-[2/3] max-md:w-[120px]' : ''}`}
+              className={`group relative flex-none overflow-hidden rounded-md md:rounded-lg bg-bg-card cursor-pointer transition-[transform,box-shadow] duration-280 ease-in-out md:hover:scale-[1.07] hover:z-5 hover:shadow-[0_10px_36px_rgba(0,0,0,0.8)] ${baseSize} max-md:w-37.5 max-md:h-auto max-md:aspect-video ${row.aspect === 'portrait' ? 'max-md:aspect-2/3 max-md:w-30' : ''}`}
             >
               <img
                 src={item.img}
@@ -101,7 +101,7 @@ function Row({ row, searchFilter, onViewAll, isExpanded }) {
 
               <div className="absolute right-0 bottom-0 left-0 px-2 md:px-2.5 pb-2 md:pb-2.5 pt-5 md:pt-7 bg-[linear-gradient(0deg,rgba(10,12,20,0.97)_0%,transparent_100%)] md:opacity-0 group-hover:opacity-100 transition-opacity duration-250">
                 <p className="text-[10px] md:text-[12px] font-bold leading-[1.3] text-white line-clamp-1">{item.title}</p>
-                <p className="mt-0.5 text-[9px] md:text-[11px] text-[#8a9bb5] line-clamp-1">{item.sub}</p>
+                <p className="mt-0.5 text-[9px] md:text-[11px] text-text-secondary line-clamp-1">{item.sub}</p>
               </div>
 
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden md:flex items-center justify-center w-10.5 h-10.5 rounded-full bg-white/92 opacity-0 group-hover:opacity-100 transition-opacity duration-250">
