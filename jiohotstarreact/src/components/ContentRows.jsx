@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import {  useRef } from 'react'
 import data from '../data/content.json'
 
 const CARD_SIZE = {
